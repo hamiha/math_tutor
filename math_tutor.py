@@ -102,8 +102,9 @@ def solve_problems(equations_file, options):
                         #print(list(img))
                         #src = wolframalpha.scanbranches(img[0], 'src')[0]
                         src = list(img)[0]
-                        print(src)
-                        print(src['@src'])
+                        #print(src)
+                        #print(src['@src'])
+                        print(src['@alt'])
 
                         image_path = (foldername + '/' + str(problem_num) + '.' +
                                 str(image_num) + '__'+ "__" + ".gif")
